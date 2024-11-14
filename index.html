@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width: initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .row{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .column{
+            flex: 20%;
+            padding: 10px;
+            background-color: plum;
+        }
+        @media screen and (max-width: 992px) {
+            .column{
+            flex: 50%;
+        }
+        }
+        @media screen and (max-width: 600px) {
+            .row{
+            flex-direction: column;
+        }
+        }
+    </style>
+    
+
+</head>
+<body>
+    <div class="row">
+        <div class="column">
+            <h1>HTML</h1>
+            <p>Aliquyam dolores nonumy clita consetetur et et no magna elitr sit, magna dolores elitr rebum et sadipscing eirmod amet aliquyam, sadipscing at est lorem dolore,.
+            </p>
+            </div>
+        <div class="column">
+            <h1>CSS</h1>
+            <p>Bliquyam dolores nonumy clita consetetur et et no magna elitr sit, magna dolores elitr rebum et sadipscing eirmod amet aliquyam, sadipscing at est lorem dolore,.
+            </p>
+        </div>
+        <div class="column">
+            <h1>JS</h1>
+            <p>Cliquyam dolores nonumy clita consetetur et et no magna elitr sit, magna dolores elitr rebum et sadipscing eirmod amet aliquyam, sadipscing at est lorem dolore,.
+            </p>
+        </div> 
+        <div class="column">
+            <h1>Bootstrap</h1>
+            <p>Dliquyam dolores nonumy clita consetetur et et no magna elitr sit, magna dolores elitr rebum et sadipscing eirmod amet aliquyam, sadipscing at est lorem dolore,.
+            </p>
+        </div>   
+
+    </div>
+</body>
+</html>
